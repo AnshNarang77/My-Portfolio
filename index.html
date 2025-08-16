@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh's Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/PORTFOLIO/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/aos-master/dist/aos.css">
+    <style>
+        body {
+            /* font-family: "Edu QLD Hand", cursive; */
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="overflow-x-hidden">
+    <!-- navbar -->
+    <nav id="header"
+        class="p-5 flex items-center font-semibold text-lg text-[#e5e4e2] h-[10vh] justify-between w-screen border-b-2 border-[#e5e4e2] fixed z-100 bg-[#0f172a] bg-">
+        <div class="w-[40%]">PORTFOLIO</div>
+        <div class="md:hidden" id="hambtn">
+            <img src="/images/ham.png" class=" " alt="hamburger " />
+        </div>
+
+
+
+        <div class="hidden md:flex w-[60%] md:justify-around">
+            <div class="hover:text-[#36bdf8]"><a href="#intro">INTRO</a></div>
+            <div class="hover:text-[#36bdf8]"><a href="#about">ABOUT</a></div>
+            <div class="hover:text-[#36bdf8]"><a href="#skills">SKILLS</a></div>
+            <div class="hover:text-[#36bdf8]"><a href="#projects">PROJECTS</a></div>
+            <div class="hover:text-[#36bdf8]"><a href="#contact">CONTACT</a></div>
+        </div>
+    </nav>
+    </header>
+    <!--navbar ends here  -->
+
+
+    <!-- MOBILE NAV -->
+    <div class="bg-[#e5e4e2] bg-[url(/images/bg2.jpg)]  w-[100vw] h-[100vh] hidden fixed top-0 left-0 z-50 " id="nav">
+
+        <div
+            class="p-5 text-lg font-semibold h-[10vh] text- bg-[#0f172a] border-b-2 border-[#38bdf8] text-[#e5e4e2] flex justify-between items-center">
+            <div class="w-[40%]">ANSH</div>
+            <div class="md:hidden" id="close">
+                <img src="/images/cancel-01-Stroke-Rounded.png   " class=" " />
+            </div>
+        </div>
+        <div class="text-2xl text-[#e5e4e2] w-screen h-[60vh] mt-[10vh] flex flex-col items-center justify-between">
+            <div class=" p-3 border-b-2 border-[#38bdf8] " id="b1"><a href="#intro">INTRO</a></div>
+            <div class=" p-3 border-b-2 border-[#38bdf8]" id="b2"><a href="#about">ABOUT</a></div>
+            <div class=" p-3 border-b-2 border-[#38bdf8]" id="b3"><a href="#skills">SKILLS</a></div>
+            <div class=" p-3 border-b-2 border-[#38bdf8]" id="b4"><a href="#projects">PROJECTS</a></div>
+            <div class=" p-3 border-b-2 border-[#38bdf8]" id="b5"><a href="#contact">CONTACT</a></div>
+        </div>
+
+
+    </div>
+    <!-- MObiel nav ends here -->
+
+
+    <!-- Main section -->
+    <section
+        class="pt-[32vh] p-5 w-screen h-[100vh] bg-[url(/images/bgimg.jpg)] bg-center bg-cover bg-no-repeat bg-fixed"
+        id="intro">
+        <div class="text-2xl text-[#38bdf8] sm:text-3xl">&ltHello World/&gt</div>
+        <div class="text-[#e5e4e2] text-4xl sm:text-5xl mt-3 md:text-6xl" data-aos="fade-down" data-aos-duration="1000">
+            I am Ansh Narang,
+        </div>
+        <div class="text-4xl text-[#e5e4e2] sm:text-5xl mt-3 md:text-6xl" data-aos="fade-up" data-aos-delay="500"
+            data-aos-duration="500">
+            A Frontend Web Developer
+        </div>
+        <div class="flex items-center ">
+            <button class="p-2 sm:p-3 bg-[#38bdf8] hover:bg-sky-500 mt-5 text-white px-5 font-semibold sm:text-lg">
+                <a href="#contact">Contact Me!</a>
+            </button>
+            <button class="ml-2 p-2 sm:p-3 bg-[#38bdf8] hover:bg-sky-500 mt-5 text-white px-5 font-semibold sm:text-lg">
+                <a href="#contact">Download CV</a>
+            </button>
+        </div>
+    </section>
+
+    <!-- Main section ends here -->
+
+
+    <!-- About section -->
+    <section class="bg-gradient-to-br from-[#0f172a] to-[#74849d] min-h-screen pt-[10vh] pb-[10vh] bg-fixed" id="about">
+        <div class="flex justify-center items-center">
+            <div class="w-[7vw] bg-gray-300 h-[1px]"></div>
+            <div class="text-gray-300 text-4xl ml-4 mr-4">ABOUT</div>
+            <div class="w-[7vw] bg-gray-300 h-[1px]"></div>
+        </div>
+
+        <div
+            class="md:p-5 flex flex-col md:flex-row md:justify-around text-justify items-center w-screen pt-[10vh] md:pt-[15vh] ">
+            <div
+                class="rounded-lg w-[65vw] sm:w-[50vw] md:w-[40%] lg:w-[30%] xl:w-[25%] flex justify-center items-center  p-2 bg-[#e5e4e2] shadow-xl shadow-sky-500/50">
+                <img src="images/ansh.jpg" alt="" class="h-auto rounded-lg" />
+            </div>
+
+            <div class="pt-[10vh] md:pt-0 w-[90vw] md:p-5 p-5 sm:p-10 md:w-[50%] lg:w-[60%]">
+                <h1 class="text-[#38bdf8] text-xl mb-2 font-semibold lg:text-2xl xl:text-3xl">
+                    &ltABOUT/&gt
+                </h1>
+                <p class="text-[#e5e4e2] lg:text-lg xl:text-xl" data-aos="fade-in" data-aos-duration="1000">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsam
+                    beatae debitis recusandae dolorum mollitia temporibus veritatis
+                    sapiente harum porro nemo, aliquam modi delectus facilis inventore
+                    adipisci molestias optio maiores distinctio suscipit maxime.
+                    Laboriosam nam accusantium natus excepturi autem, dolores neque
+                    quisquam fugiat. Enim ea officiis, pariatur et nostrum tempora
+                    tempore repellat aliquid ad a soluta ullam quasi in quam saepe ex
+                    repudiandae maxime ipsa deleniti iste voluptate odit quidem.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABout section ends here -->
+
+
+    <!-- SKILLS -->
+    <section class="w-screen bg-[#0f172a] pt-[10vh] pb-[10vh]" id="skills">
+        <div class="flex justify-center items-center">
+            <div class="w-[7vw] bg-gray-300 h-[1px]"></div>
+            <div class="text-gray-300 text-4xl ml-4 mr-4">SKILLS</div>
+            <div class="w-[7vw] bg-gray-300 h-[1px]"></div>
+        </div>
+
+        <div class="bg-[url(/images/bg3.jpg)]  bg-no-repeat bg-center bg-cover md:bg-auto p-7 mx-auto mt-10 w-[60%] sm:w-[70%] md:w-[80%] lg:w-[70%] xl:w-[55%]
+            flex  flex-wrap justify-center gap-5 shadow-xl shadow-white/50 rounded-lg">
+            <div class="bg-white p-3  rounded-lg flex flex-col items-center" data-aos="fade-right"
+                data-aos-duration="700">
+                <img src="/images/html.png" class="" alt="htmllogo" />
+                <p class="text-lg font-semibold text-center mt-2">HTML</p>
+            </div>
+            <div class="bg-white p-3  rounded-lg flex flex-col items-center" data-aos="fade-right"
+                data-aos-duration="700">
+                <img src="/images/css-3.png" class="" alt="" />
+                <p class="text-lg font-semibold text-center mt-2">CSS</p>
+            </div>
+            <div class="bg-white p-3  rounded-lg flex flex-col items-center" data-aos="fade-right"
+                data-aos-duration="700">
+                <img src="/images/js.png" class="" alt="" />
+                <p class="text-lg font-semibold text-center mt-2">JAVASCRIPT</p>
+            </div>
+            <div class="bg-white p-3  rounded-lg flex flex-col items-center" data-aos="fade-right"
+                data-aos-duration="700">
+                <img src="/images/programing.png" class="" alt="" />
+                <p class="text-lg font-semibold text-center mt-2">REACT JS</p>
+            </div>
+
+            <div class="bg-white p-3  rounded-lg flex flex-col items-center" data-aos="fade-left"
+                data-aos-duration="700">
+                <img src="/images/bootstrap.png" class="" alt="" />
+                <p class="text-lg font-semibold text-center mt-2">BOOTSTRAP</p>
+            </div>
+
+            <div class="bg-white p-3  rounded-lg flex flex-col items-center" data-aos="fade-left"
+                data-aos-duration="700">
+                <img src="/images/icons8-tailwind-css-128.png" class="" alt="" />
+                <p class="text-lg font-semibold text-center mt-2">TAILWIND CSS</p>
+            </div>
+
+            <div class="bg-white p-0.5 px-3  flex flex-col items-center rounded-lg" data-aos="fade-left"
+                data-aos-duration="700">
+                <img src="/images/responsive.png" class="" alt="" />
+                <p class="text-lg font-semibold text-center">RESPONSIVE</p>
+                <p class="text-lg font-semibold text-center">DESIGN</p>
+            </div>
+            <div class="bg-white p-3  rounded-lg flex flex-col items-center" data-aos="fade-left"
+                data-aos-duration="700">
+                <img src="/images/python (1).png" class="" alt="" />
+                <p class="text-lg font-semibold text-center mt-2">Python</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- skills section ends here -->
+
+    <!-- Projects section -->
+
+    <section class="bg-[url(/images/bg3.jpg)]  bg-no-repeat bg-cover md:h-[100vh] pb-[10vh] pt-[10vh]" id="projects">
+
+        <div class="flex justify-center items-center">
+            <div class="w-[7vw] bg-gray-300 h-[1px]"></div>
+            <div class="text-gray-300 text-4xl ml-4 mr-4">PROJECTS</div>
+            <div class="w-[7vw] bg-gray-300 h-[1px]"></div>
+        </div>
+
+        <div class="flex justify-center md:flex hidden">
+
+            <div
+                class="bg-[#0f172a] w-[80vw] md:w-[100vw] lg:w-[80vw] md:h-[70vh] pt-10 pb-10 flex flex-col items-center md:items-center mt-10 md:flex-row md:justify-around gap-7 md:gap-0">
+
+
+
+                <div class="bg-white w-[50vw] h-[55vh] sm:h-[60vh] xl:h-[60vh] md:w-[35vw] xl:w-[22vw] lg:w-[25vw] rounded-lg cursor-pointer group relative  flex justify-center shadow-lg shadow-white/50  overflow-hidden"
+                    data-aos="fade-right" data-aos-delay="100" data-aos-offset="300">
+                    <!-- Front side of card -->
+                    <div class="group-hover:hidden   w-[100%] h-[100%] text-white flex items-end ">
+                        <div class="w-[100%] h-[100%] object-contain"><img src="/images/project-1.jpg" alt=""
+                                class="w-[100%] h-[100%] rounded-lg"></div>
+                        <div class="absolute bg-white text-black p-2 w-[100%] text-sm font-semibold">Project-1:
+                            GadgetHub (E-commerce Store)</div>
+                    </div>
+
+                    <!-- Back side of card -->
+                    <div
+                        class="hidden group-hover:flex hover:flex-col bg-[url(/images/bg3.jpg)] bg-no-repeat absolute w-[100%] h-[100%] rounded-lg p-2 bg-center bg-cover text-white">
+                        <div class="text-lg font-serif underline">About GadgetHub:</div>
+                        <div class=" p-2 mt-2">GadgetHub is a React-based responsive e-commerce frontend designed with
+                            Tailwind CSS. It features a clean, modern UI where users can browse gadgets and filter
+                            products by category for quick discovery. The design adapts seamlessly to all devices,
+                            ensuring a smooth shopping experience. This project highlights my skills in building dynamic
+                            UIs with React components, Tailwind styling, and implementing category-based filtering
+                            logic.</div>
+                        <div class="w-[100%] h-[100%] flex justify-end items-end"><button
+                                class="bg-[#38bdf8] hover:bg-sky-500 p-2 text-white font-semibold px-3 rounded-md"><a
+                                    target="_blank" href="https://gadget-hub-ansh77.vercel.app/">Live Demo
+                                    ⇗</a></button></div>
+
+                    </div>
+                </div>
+                <!-- Project2 -->
+                <div class="bg-white w-[50vw] h-[55vh] sm:h-[60vh] xl:h-[60vh] md:w-[35vw] xl:w-[22vw] lg:w-[25vw] rounded-lg cursor-pointer group relative  flex justify-center shadow-lg shadow-sky-500/50  overflow-hidden"
+                    data-aos="fade-left" data-aos-delay="100" data-aos-offset="300">
+                    <!-- Front side of card -->
+                    <div class="group-hover:hidden   w-[100%] h-[100%] text-white flex items-end ">
+                        <div class="w-[100%] h-[100%] object-contain"><img src="/images/project-2.jpg" alt=""
+                                class="w-[100%] h-[100%] rounded-lg"></div>
+                        <div class="absolute bg-white text-black p-2 w-[100%] text-sm font-semibold">Project-2: AnandLab
+                            (Diagnostic Lab)</div>
+                    </div>
+
+                    <!-- Back side of card -->
+                    <div
+                        class="hidden group-hover:flex hover:flex-col bg-[url(/images/bg3.jpg)] bg-no-repeat absolute w-[100%] h-[100%] rounded-lg p-2 bg-center bg-cover text-white">
+                        <div class="text-lg font-serif underline">About Anand Lab:</div>
+                        <div class=" p-2 mt-2">A diagnostic laboratory web platform created with the MERN stack and
+                            Tailwind CSS in collaboration with a team. My key contribution was designing and developing
+                            the frontend for the "About" and "Services" pages, ensuring a clean, responsive, and
+                            user-friendly interface. The pages feature structured layouts, optimized visuals, and smooth
+                            styling to maintain brand consistency and enhance user experience.</div>
+                        <div class="w-[100%] h-[100%] flex justify-end items-end"><button
+                                class="bg-[#38bdf8] hover:bg-sky-500 p-2 text-white font-semibold px-3 rounded-md"><a
+                                    target="_blank" href="https://diagnostic-lab-eight.vercel.app/">Live Demo
+                                    ⇗</a></button></div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <!-- projects show in mobiles bcoz hover doesnt woreks in mobiles -->
+        <div class="w-screen flex justify-center md:hidden">
+            <div class="bg-[#0f172a] w-[80vw] sm:w-[65vw] p-10 sm:p-10 mt-10">
+                <div class=''>
+                    <div class="h-[60vh]  relative flex items-end rounded-lg overflow-hidden">
+                        <div class="w-[100%] h-[100%] absolute object-contain ">
+                            <img src="/images/project-1.jpg" class="w-[100%] h-[100%] " alt="">
+                        </div>
+                        <div class="bg-white absolute w-[100%] p-2 text-sm font-semibold">Project-1: GadgetHub
+                            (E-commerce Store)</div>
+                    </div>
+                    <div class="mt-2 p-2">
+                        <div class="text-lg font-serif underline text-white">About GadgetHub</div>
+                        <div class="mt-2 text-white">GadgetHub is a React-based responsive e-commerce frontend designed
+                            with
+                            Tailwind CSS. It features a clean, modern UI where users can browse gadgets and filter
+                            products by category for quick discovery. The design adapts seamlessly to all devices,
+                            ensuring a smooth shopping experience. This project highlights my skills in building dynamic
+                            UIs with React components, Tailwind styling, and implementing category-based filtering
+                            logic.</div>
+                            <div><button class="bg-[#38bdf8] hover:bg-sky-500 p-2 text-white font-semibold px-3 rounded-md mt-2"><a href="https://gadget-hub-ansh77.vercel.app/" target="_blank">Live Demo ⇗</a></button></div>
+                    </div>
+
+                    <div class="h-[70vh]  relative flex items-end rounded-lg overflow-hidden mt-10">
+                        <div class="w-[100%] h-[100%] absolute object-contain ">
+                            <img src="/images/project-2.jpg" class="w-[100%] h-[100%] " alt="">
+                        </div>
+                        <div class="bg-white absolute w-[100%] p-2 text-sm font-semibold">Project-2: AnandLab
+                            (Diagnostic Lab)</div>
+                    </div>
+                    <div class="mt-2 p-2">
+                        <div class="text-lg font-serif underline text-white">About Anand Lab</div>
+                        <div class="mt-2 text-white">A diagnostic laboratory web platform created with the MERN stack and
+                            Tailwind CSS in collaboration with a team. My key contribution was designing and developing
+                            the frontend for the "About" and "Services" pages, ensuring a clean, responsive, and
+                            user-friendly interface. The pages feature structured layouts, optimized visuals, and smooth
+                            styling to maintain brand consistency and enhance user experience.</div>
+                            <div><button class="bg-[#38bdf8] hover:bg-sky-500 p-2 text-white font-semibold px-3 rounded-md mt-2"><a href="https://diagnostic-lab-eight.vercel.app/" target="_blank">Live Demo ⇗</a></button></div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Project sec ends here -->
+
+    <!-- Contact -->
+
+
+    <section class="bg-[url(/images/bg2.jpg)] bg-fixed h-[100vh] bg-center pt-[10vh] pb-[10vh] p-10" id="contact">
+        <div class="flex justify-center items-center ">
+            <div class="w-[7vw] bg-gray-300 h-[1px]"></div>
+            <div class="text-gray-300 text-4xl ml-4 mr-4">CONTACT</div>
+            <div class="w-[7vw] bg-gray-300 h-[1px]"></div>
+        </div>
+
+        <div class="flex justify-center">
+
+            <div class="flex  w-[100vw] justify-center  mt-[10vh]">
+                <section
+                    class="w-[98vw] sm:w-[80vw] md:w-[60vw] lg:w-[50vw] xl:w-[40vw] h-[60vh] bg-[url(/images/bg3.jpg)] bg-center p-3 flex flex-col justify-around">
+                    <div class="flex bg-white items-center p-2 rounded-md">
+                        <div><img src="/images/telephone.png" alt=""></div>
+                        <div class="ml-5">
+                            <p class="font-semibold text-lg md:text-xl">Call </p>
+                            <p class="md:text-lg ">+91 9138215747</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex bg-white items-center p-2 pr-0 rounded-md">
+                        <div><img src="/images/mail.png" alt=""></div>
+                        <div class="ml-5">
+                            <p class="font-semibold text-lg md:text-xl">Email</p>
+                            <p class="text-sm sm:text-md md:text-lg">anshnarang0077@gmail.com</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex bg-white  items-center p-2 rounded-md">
+                        <div><img src="/images/location (1).png" alt=""></div>
+                        <div class="ml-5">
+                            <p class="font-semibold text-lg md:text-xl">Based In</p>
+                            <p class="md:text-lg ">Panipat, Haryana, India</p>
+                        </div>
+                    </div>
+                    <div class="flex bg-white  items-center p-2 rounded-md">
+                        <div><img src="/images/linkedin (1).png" alt=""></div>
+                        <div class="ml-5">
+                            <p class="font-semibold text-lg md:text-xl">Linked In</p>
+                            <a target="_blank"
+                                href="https://www.linkedin.com/in/ansh-narang-172837318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                                class="md:text-lg hover:text-blue-500">Ansh Narang</a>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <!-- contact ends here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <script src="/aos-master/dist/aos.js"></script>
+                <script>
+                    AOS.init();
+                </script>
+                <script src="/index.js"></script>
+</body>
+
+</html>
